@@ -32,16 +32,12 @@ function entrar2(nome){
 //funçao age
 function age(){
     
-    var age = document.getElementById('age');
+    var area3 = document.getElementById('area3');
     var texto = prompt('Digite sua idade!');
 
-    age.innerHTML = "Luiz Eduardo tem" + ' ' + age; 
+    area3.innerHTML = "Luiz Eduardo Vasconcelos tem" + ' ' + texto ; 
 
     
-
-
-}
+    }
     
-
-
 }
