@@ -28,16 +28,21 @@ function entrar2(nome){
     }else{
         area2.innerHTML = 'Bem vindo' + ' ' + nome + ' ' + texto;
     }
+}
 
 //funçao age
-function age(){
+function idade(){
     
     var area3 = document.getElementById('area3');
     var texto = prompt('Digite sua idade!');
 
-    area3.innerHTML = "Luiz Eduardo Vasconcelos tem" + ' ' + texto ; 
+    area3.innerHTML = "Luiz Eduardo Vasconcelos tem" + ' ' + texto + ' ' + 'anos' ; 
 
     
     }
     
-}
+
+//arrays
+var lista = Luizao;
+
+
